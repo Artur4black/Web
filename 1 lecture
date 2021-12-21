@@ -1,7 +1,47 @@
+<!DOCTYPE html>
+<html>
 <head>
-<title>Hello</title>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
 </head>
 <body>
-<h1>Hello
-World!</h1>
+
+<h2>HTML Table</h2>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Date</th>
+   
+  </tr>
+  <tr>
+    <td>Kuleken Artur</td>
+    <td>21.12.2021</td>
+    
+  </tr>
+  
+  <tr>
+    <td>Artur Kuleken</td>
+    <td>22.12.2021</td>
+   
+  </tr>
+ 
+</table>
+
 </body>
+</html>
